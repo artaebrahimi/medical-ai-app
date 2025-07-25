@@ -7,8 +7,12 @@ from agno.media import Image as AgnoImage
 import streamlit as st
 
 # Set your API Key (Replace with your actual key)
-GOOGLE_API_KEY = "AIzaSyCAxGVaVD-TdFHlFGAwdgUrLEi6QmJtwnA"
+import streamlit as st
+import os
+
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
+
 
 # Ensure API Key is provided
 if not GOOGLE_API_KEY:
