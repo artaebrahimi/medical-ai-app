@@ -5,8 +5,6 @@ from agno.models.google import Gemini
 from agno.tools.duckduckgo import DuckDuckGoTools
 from agno.media import Image as AgnoImage
 import streamlit as st
-
-# Set your API Key (Replace with your actual key)
 import streamlit as st
 import os
 
